@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "LyricTube",
+  "version": "1.0",
+
+  "description": "Get the lyrics of music video and set it on Youtube.",
+
+  "icons": {
+    "48": "icons/logo-48.png",
+    "96": "icons/logo-96.png"      
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["lyrictube.js"]
+      //"js": ["lyrictube.js"]
+    }  
+  ],
+    "permissions": [
+    "*://api.vagalume.com.br/*",
+    "webRequest"
+    ]
+}
