@@ -1,2 +1,2 @@
 # LyricTube
-Webextension that show the lyric of song in yotube's page.
+This webextension shows the lyric of the song on Youtube's page.
